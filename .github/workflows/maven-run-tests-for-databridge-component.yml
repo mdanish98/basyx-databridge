@@ -4,6 +4,8 @@
 name: BaSyx Java DataBridge CI with Maven
 
 on:
+  push:
+    branches: [ test ]
   pull_request:
     branches: [ main, development ]
 
